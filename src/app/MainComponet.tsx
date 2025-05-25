@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import ImageSlider from './ImageSlider';
+import FormData from './FormData';
 export type images = {
   image1: string;
  image2: string;
@@ -44,8 +45,10 @@ export default function MainComponet() {
 }, []);
           console.log(images)
   return (
-    <div>
-        <ImageSlider images={images}/>
+    <div className="flex justify-around items-center h-screen w-full flex-row-reverse">
+      <div className="w-[40%]"><ImageSlider images={images}/> </div>
+
+        <div className="w-[40%]"><FormData/></div>
     </div>
   )
 }

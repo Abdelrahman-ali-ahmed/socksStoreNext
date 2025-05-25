@@ -1,4 +1,3 @@
-import ImageSlider from "./ImageSlider";
 import MainComponet from "./MainComponet";
 import NavBar from "./NavBar";
 import OfferTime from "./OfferTime";
