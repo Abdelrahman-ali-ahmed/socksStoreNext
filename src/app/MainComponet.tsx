@@ -48,7 +48,7 @@ export default function MainComponet() {
     <div className="flex justify-around items-center h-screen w-full flex-row-reverse">
       <div className="w-[40%]"><ImageSlider images={images}/> </div>
 
-        <div className="w-[40%]"><FormData/></div>
+        <div className="w-[40%] "><FormData/></div>
     </div>
   )
 }
