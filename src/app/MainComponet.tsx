@@ -45,10 +45,10 @@ export default function MainComponet() {
 }, []);
           console.log(images)
   return (
-    <div className="flex justify-around items-center h-screen w-full flex-row-reverse">
-      <div className="w-[40%]"><ImageSlider images={images}/> </div>
+    <div className="flex justify-around items-center h-screen w-full flex-col md:flex-row-reverse ">
+      <div className="w-full md:w-[40%]"><ImageSlider images={images}/> </div>
 
-        <div className="w-[40%] "><FormData/></div>
+        <div className="w-full md:w-[40%] "><FormData/></div>
     </div>
   )
 }

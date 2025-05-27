@@ -54,9 +54,9 @@ export default function FormData() {
   };
 
   return (
-    <div dir="rtl" className="max-w-xl mx-auto p-6 bg-white text-black rounded-2xl shadow-2xl border-2 border-blue-600 mt-10 ">
+    <div dir="rtl" className=" mx-auto p-6 bg-white text-black rounded-2xl shadow-2xl md:border-2 md:border-blue-600 mt-16 w-full  ">
       {/* Offer Section */}
-      <div className="text-center text-xl font-bold mb-6">
+      <div className="text-center text-xl font-bold mb-6 w-full">
         <h2>عرض 12 شراب ديسرن قطن 90% بخصم 50%</h2>
         <div className="text-2xl text-green-600 mt-2">
           199.00 ج.م <span className="line-through text-gray-400 text-base">440.00 ج.م</span>
@@ -68,19 +68,19 @@ export default function FormData() {
       <div className="flex justify-around text-sm mb-6 text-black">
         <div className="flex flex-col items-center">
           <CiWallet size={28} />
-          <p>الدفع عند الاستلام</p>
+          <p className='text-center'>الدفع عند الاستلام</p>
         </div>
         <div className="flex flex-col items-center">
           <FaBoxOpen size={28} />
           <p>توصيل مجاني عند طلب 2 دستة</p>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center justify-center">
           <IoShieldOutline size={28} />
-          <p>ضمانة 100%</p>
+          <p className='text-center'>ضمانة 100%</p>
         </div>
         <div className="flex flex-col items-center">
           <IoChatbubbleOutline size={28} />
-          <p>خدمة العملاء</p>
+          <p className='text-center'>خدمة العملاء</p>
         </div>
       </div>
 
